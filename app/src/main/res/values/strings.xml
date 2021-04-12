@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Gittest</string>
     <string name="button">\@button</string>
+    <string name="tomas_gay">\@tomas é gay</string>
 </resources>
