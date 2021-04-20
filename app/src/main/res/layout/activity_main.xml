@@ -6,69 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="356dp"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="154dp"
-        android:layout_marginLeft="154dp"
-        android:layout_marginTop="607dp"
-        android:text="@string/button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="155dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="360dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/dee_logo"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="7dp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView4"
+        android:layout_width="212dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/isep_logo"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="250dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="158dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="223dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="55dp" />
-
+        android:clickable="true"
+        app:srcCompat="@drawable/bolt"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="525dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
