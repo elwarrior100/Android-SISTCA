@@ -10,31 +10,59 @@
         android:id="@+id/imageView3"
         android:layout_width="180dp"
         android:layout_height="81dp"
-        app:srcCompat="@drawable/dee_logo"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="7dp" />
+        android:layout_marginStart="225dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="643dp"
+        android:contentDescription="@string/deelogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dee_logo" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="212dp"
         android:layout_height="132dp"
-        app:srcCompat="@drawable/isep_logo"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        android:layout_marginEnd="199dp"
+        android:layout_marginRight="199dp"
+        android:layout_marginBottom="599dp"
+        android:contentDescription="@string/logoisep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/isep_logo" />
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="158dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginBottom="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="306dp"
+        android:layout_marginLeft="306dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="107dp"
         android:clickable="true"
-        app:srcCompat="@drawable/bolt"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="525dp" />
+        android:contentDescription="@string/botao"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/toast_frame" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
